@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "Documentation generator",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Generate comprehensive documentation in Word (.docx) format for the current file, to be reviewed and confirmed by users and technical teams:\n1. Generate requirements documentation\n2. Generate design documentation (Include Flowchart, Gantt Chart, State Diagram, Sequence Diagram, UI Mapping, Integration and Data Flow)\n3. Ensure documentation follows project standards"
+  },
+  "workspaceFolderName": "mdm-portal",
+  "shortName": "documentation-generator"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-software-engineer",
+  "description": "Software Engineer agent for Phase 6 (Implementation + Merge Resolution). Implements tasks one at a time following design specs, writes tests based on D4 approach, tracks requirements coverage, and resolves merge conflicts between workstreams.",
+  "prompt": "file://../references/aidlc/agent-prompts/software-engineer.md",
+  "tools": ["read", "write", "shell", "thinking"],
+  "allowedTools": ["read", "write", "shell", "thinking"],
+  "model": "auto"
+}

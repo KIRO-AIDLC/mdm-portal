@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-solution-architect",
+  "description": "Solution Architect agent for Phase 3 (Units of Work + Team Alignment). Generates D2 decision gate, validates decisions, decomposes the system into units, and establishes team collaboration agreements for incremental mode.",
+  "prompt": "file://../references/aidlc/agent-prompts/solution-architect.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-tech-lead",
+  "description": "Tech Lead agent for Phase 5 (Tasks). Generates D4 decision gate for implementation approach, validates decisions, and produces tasks.md with implementation plan derived from design documents.",
+  "prompt": "file://../references/aidlc/agent-prompts/tech-lead.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

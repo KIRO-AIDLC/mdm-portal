@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-software-architect",
+  "description": "Software Architect agent for Phase 4 (Design + NFR). Generates D3 decision gate for technology choices, validates decisions for compatibility, and produces modular design documents.",
+  "prompt": "file://../references/aidlc/agent-prompts/software-architect.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

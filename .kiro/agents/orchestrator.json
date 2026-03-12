@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-orchestrator",
+  "description": "Project Manager agent that orchestrates the AI-DLC spec workflow. Manages state, routes between phase agents, handles user interaction, and coordinates decision gates. Does not produce spec artifacts directly.",
+  "prompt": "file://../references/aidlc/agent-prompts/orchestrator.md",
+  "tools": ["read", "write", "use_subagent", "thinking"],
+  "allowedTools": ["read", "write", "use_subagent", "thinking"],
+  "model": "auto"
+}

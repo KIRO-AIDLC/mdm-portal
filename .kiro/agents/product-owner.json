@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-product-owner",
+  "description": "Product Owner agent for Phase 2 (Requirements). Generates D1 decision gate, validates decisions, optionally creates personas, and produces requirements.md with user stories and EARS notation acceptance criteria.",
+  "prompt": "file://../references/aidlc/agent-prompts/product-owner.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

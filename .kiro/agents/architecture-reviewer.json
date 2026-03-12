@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-architecture-reviewer",
+  "description": "Reviews and validates design documents from multiple AI-DLC workstreams. Identifies architectural conflicts, integration issues, and provides resolution recommendations. Use after multiple units complete Phase 4 (Design).",
+  "prompt": "file://../references/aidlc/agent-prompts/architecture-reviewer.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

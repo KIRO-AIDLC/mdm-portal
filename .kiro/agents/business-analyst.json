@@ -1,0 +1,8 @@
+{
+  "name": "aidlc-business-analyst",
+  "description": "Business Analyst agent for Phase 1 (Context Assessment). Scans the workspace, determines greenfield/brownfield, gathers technology stack and architecture information, and generates context.md.",
+  "prompt": "file://../references/aidlc/agent-prompts/business-analyst.md",
+  "tools": ["read", "write", "thinking"],
+  "allowedTools": ["read", "write", "thinking"],
+  "model": "auto"
+}

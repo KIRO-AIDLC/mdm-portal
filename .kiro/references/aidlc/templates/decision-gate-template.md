@@ -1,0 +1,45 @@
+# Decision Gate Template
+
+**Path**: `{WORKFLOW_DIR}/{feature}/decisions-*.md` (always `.aidlc/workflow/`)
+**See**: `{SHARED_DIR}/decision-gate-pattern.md` for process, guidelines, and response templates
+
+Pure template structure for all decision files (D1, D2, D3, D4).
+
+```markdown
+# [Phase] Decisions
+
+## Context Summary
+[Auto-populated from previous phases - key information that informs decisions]
+
+---
+
+## Decision Questions
+
+### D[N]-1: [Question Title]
+**Question**: [Clear, specific question about the feature/system]
+- 1) [Option 1 with brief explanation]
+- 2) [Option 2 with brief explanation] **(Recommended)**
+- 3) [Option 3 with brief explanation]
+- 4) Other (please specify): _______
+
+**Answer**: 
+
+---
+
+### D[N]-2: [Question Title]
+**Question**: [Clear, specific question]
+- 1) [Option 1]
+- 2) [Option 2] **(Recommended)**
+- 3) [Option 3]
+- 4) Other (please specify): _______
+
+**Answer**: 
+
+---
+
+[Continue with additional questions - adapt count to project complexity]
+
+---
+
+**Instructions**: Fill in your answers above and respond with "[phase] decisions complete"
+```

@@ -1,0 +1,142 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "fetch"
+      ]
+    },
+    "awslabs.terraform-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "awslabs.terraform-mcp-server@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "ExecuteTerraformCommand",
+        "SearchAwsProviderDocs"
+      ]
+    },
+    "aws-docs": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-documentation-mcp-server@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_documentation"
+      ]
+    },
+    "awslabs.aws-diagram-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-diagram-mcp-server"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "get_diagram_examples",
+        "generate_diagram",
+        "list_icons"
+      ]
+    },
+    "frontend": {
+      "command": "uvx",
+      "args": [
+        "awslabs.frontend-mcp-server@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false
+    },
+    "mui-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mui/mcp@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "browser_console_messages",
+        "browser_network_requests",
+        "browser_fill_form",
+        "browser_click",
+        "browser_take_screenshot",
+        "browser_navigate",
+        "browser_snapshot",
+        "browser_evaluate",
+        "browser_type",
+        "browser_close",
+        "browser_wait_for"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "disabled": true,
+      "autoApprove": []
+    }
+  },
+  "powers": {
+    "mcpServers": {
+      "power-figma-figma": {
+        "url": "https://mcp.figma.com/mcp",
+        "disabled": false,
+        "autoApprove": [
+          "create_design_system_rules",
+          "get_design_context",
+          "get_design_context",
+          "get_screenshot"
+        ],
+        "disabledTools": []
+      }
+    }
+  }
+}
