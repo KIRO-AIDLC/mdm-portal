@@ -31,8 +31,7 @@ MDM Portal เป็น modern web application สำหรับบริหา
 
 ### 1.5 UI Reference
 
-- Design Mockup: `business-requirements/ui-mockup/` (React + MUI prototype)
-- Figma: [MDM Portal — User Management](https://www.figma.com/design/ctemScybvdoZEXQs1MkLFh/Metro-Service-Hub?node-id=2028-9517&m=dev)
+- Design Mockup: `business-requirements/ui-mockup/` (React + MUI perfect pixel)
 
 ---
 
