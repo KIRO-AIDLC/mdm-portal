@@ -48,7 +48,7 @@ MDM Portal เป็น modern web application สำหรับบริหา
 | P0 — Required | Pagination | MVP | client-side |
 | P0 — Required | Backend API (GET endpoints) | MVP | mockup data |
 | P0 — Required | Docker Compose (local dev) | MVP | FE + BE + DB |
-| P1 — Optional | Responsive Layout | Phase 2 | รองรับทุก breakpoint |
+| P0 — Required | Responsive Layout | MVP | รองรับทุก breakpoint |
 | P1 — Optional | Create User (form + POST) | Phase 2 | ดำเนินการภายหลัง |
 | P1 — Optional | Update User (PUT) | Phase 2 | ดำเนินการภายหลัง |
 | P1 — Optional | Delete User (DELETE + bulk) | Phase 2 | ดำเนินการภายหลัง |
@@ -89,7 +89,7 @@ MDM Portal เป็น modern web application สำหรับบริหา
 - Rows per page selector (5, 10, 25)
 - แสดง total count และ page navigation
 
-### Phase 2 Features (P1 — Optional)
+### MVP Features (P0 — Required) — continued
 
 #### FR-05: Responsive Layout
 
@@ -100,6 +100,8 @@ MDM Portal เป็น modern web application สำหรับบริหา
 | Medium | >= 900px | Collapsed (64px, icons only) |
 | Small | >= 600px | Collapsed (64px, icons only) |
 | Extra Small | < 600px | Hidden, BottomNavigation แทน |
+
+### Phase 2 Features (P1 — Optional)
 
 #### FR-06: Create User
 
@@ -253,7 +255,7 @@ const seedUsers = [
 
 ### NFR-04: Responsiveness
 
-ตาม breakpoint table ใน FR-05 (Phase 2)
+ตาม breakpoint table ใน FR-05 (MVP)
 
 ---
 
@@ -379,11 +381,11 @@ mdm-portal/
 2. Implement UI ตาม design mockup (AppHeader, Sidenav, UserTable)
 3. Backend API พร้อม seed data (GET endpoints)
 4. Docker Compose สำหรับ local development
-5. ผลลัพธ์: เปิด browser เห็น user table พร้อม search/filter/pagination
+5. Responsive Layout รองรับทุก breakpoint
+6. ผลลัพธ์: เปิด browser เห็น user table พร้อม search/filter/pagination ใช้งานได้ทุกขนาดหน้าจอ
 
 ### Phase 2 — User Management (Full CRUD & UX)
 
-- Responsive Layout รองรับทุก breakpoint
 - CRUD operations (Create, Update, Delete)
 - View User Detail
 

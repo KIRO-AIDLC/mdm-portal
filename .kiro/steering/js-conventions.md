@@ -1,5 +1,5 @@
 ---
-inclusion: always
+inclusion: auto
 ---
 
 # TypeScript/JavaScript Conventions

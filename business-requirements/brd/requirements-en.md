@@ -48,7 +48,7 @@ MDM Portal is a modern web application for centralized Master Data management ac
 | P0 — Required | Pagination | MVP | client-side |
 | P0 — Required | Backend API (GET endpoints) | MVP | mockup data |
 | P0 — Required | Docker Compose (local dev) | MVP | FE + BE + DB |
-| P1 — Optional | Responsive Layout | Phase 2 | all breakpoints |
+| P0 — Required | Responsive Layout | MVP | all breakpoints |
 | P1 — Optional | Create User (form + POST) | Phase 2 | subsequent delivery |
 | P1 — Optional | Update User (PUT) | Phase 2 | subsequent delivery |
 | P1 — Optional | Delete User (DELETE + bulk) | Phase 2 | subsequent delivery |
@@ -89,7 +89,7 @@ MDM Portal is a modern web application for centralized Master Data management ac
 - Rows per page selector (5, 10, 25)
 - Displays total count and page navigation
 
-### Phase 2 Features (P1 — Optional)
+### MVP Features (P0 — Required) — continued
 
 #### FR-05: Responsive Layout
 
@@ -100,6 +100,8 @@ MDM Portal is a modern web application for centralized Master Data management ac
 | Medium | >= 900px | Collapsed (64px, icons only) |
 | Small | >= 600px | Collapsed (64px, icons only) |
 | Extra Small | < 600px | Hidden, replaced by BottomNavigation |
+
+### Phase 2 Features (P1 — Optional)
 
 #### FR-06: Create User
 
@@ -253,7 +255,7 @@ const seedUsers = [
 
 ### NFR-04: Responsiveness
 
-Per breakpoint table in FR-05 (Phase 2)
+Per breakpoint table in FR-05 (MVP)
 
 ---
 
@@ -379,11 +381,11 @@ The MDM Portal is designed as a modular platform, starting with **User Managemen
 2. Implement UI per design mockup (AppHeader, Sidenav, UserTable)
 3. Backend API with seed data (GET endpoints)
 4. Docker Compose for local development
-5. Deliverable: browser displays user table with search/filter/pagination
+5. Responsive Layout across all breakpoints
+6. Deliverable: browser displays user table with search/filter/pagination, responsive across all screen sizes
 
 ### Phase 2 — User Management (Full CRUD & UX)
 
-- Responsive Layout across all breakpoints
 - CRUD operations (Create, Update, Delete)
 - View User Detail
 
